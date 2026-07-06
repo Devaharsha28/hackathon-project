@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Color overrides for PlacementPro to match the TG-ECET indigo/slate/amber style */
+[class*="bg-[#faf9f6]"] {
+  background-color: #f8fafc !important; /* slate-50 */
+}
+[class*="text-[#2c2a29]"] {
+  color: #334155 !important; /* slate-700 */
+}
+[class*="text-[#1c1a19]"] {
+  color: #0f172a !important; /* slate-900 */
+}
+[class*="text-[#5c5650]"] {
+  color: #475569 !important; /* slate-600 */
+}
+[class*="text-[#8c857e]"] {
+  color: #64748b !important; /* slate-500 */
+}
+[class*="text-[#a29b93]"] {
+  color: #94a3b8 !important; /* slate-400 */
+}
+[class*="border-[#e5e3da]"], 
+[class*="border-[#e8e6dd]"], 
+[class*="border-[#e2dfd4]"], 
+[class*="border-[#efede6]"], 
+[class*="border-[#f1efe8]"] {
+  border-color: #e2e8f0 !important; /* slate-200 */
+}
+[class*="bg-[#efede6]"] {
+  background-color: #f1f5f9 !important; /* slate-100 */
+}
+[class*="bg-[#faf9f6]"] {
+  background-color: #f8fafc !important; /* slate-50 */
+}
+[class*="bg-blue-600"] {
+  background-color: #4f46e5 !important; /* indigo-600 */
+}
+[class*="hover:bg-blue-700"]:hover {
+  background-color: #4338ca !important; /* indigo-700 */
+}
+[class*="text-blue-600"] {
+  color: #4f46e5 !important; /* indigo-600 */
+}
+[class*="text-blue-700"] {
+  color: #4338ca !important; /* indigo-700 */
+}
+[class*="bg-blue-50"] {
+  background-color: #f0f2ff !important; /* indigo-50 */
+}
+[class*="border-blue-100"] {
+  border-color: #e0e7ff !important; /* indigo-100 */
+}
+[class*="text-blue-800"] {
+  color: #3730a3 !important; /* indigo-800 */
+}
+[class*="bg-blue-100"] {
+  background-color: #e0e7ff !important; /* indigo-100 */
+}
+[class*="bg-blue-300"] {
+  background-color: #a5b4fc !important; /* indigo-300 */
+}
+[class*="hover:bg-blue-400"]:hover {
+  background-color: #818cf8 !important; /* indigo-400 */
+}
+[class*="border-blue-200"] {
+  border-color: #c7d2fe !important; /* indigo-200 */
+}
+[class*="focus:ring-blue-500"]:focus {
+  --tw-ring-color: #6366f1 !important; /* indigo-500 */
+}
+[class*="focus:border-blue-500"]:focus {
+  border-color: #6366f1 !important; /* indigo-500 */
+}
+
